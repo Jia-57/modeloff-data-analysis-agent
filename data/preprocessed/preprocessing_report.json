@@ -1,0 +1,53 @@
+{
+  "challenge_count": 35,
+  "excluded_challenges": [],
+  "excluded_files": [
+    {
+      "challenge_id": "00000006",
+      "path": "data/raw_data/00000006/get_results.ipynb",
+      "reason": "notebook excluded from task inputs; review as possible solution material"
+    },
+    {
+      "challenge_id": "00000012",
+      "path": "data/raw_data/00000012/answer.ipynb",
+      "reason": "notebook excluded from task inputs; review as possible solution material"
+    }
+  ],
+  "excluded_task_count": 0,
+  "exclusion_policy": [
+    {
+      "challenge_id": "00000007",
+      "reason": "Incorrect workbook supplied for this challenge; excluded from training/task inputs and evaluation at the user's request."
+    },
+    {
+      "challenge_id": "00000010",
+      "reason": "Missing the 380-match dataset required by the questions; only Check_Sum is available."
+    },
+    {
+      "challenge_id": "00000043",
+      "reason": "Missing the debt-calculation worksheets required by the questions; only a small example sheet is available."
+    }
+  ],
+  "notes": [
+    "Source files were read only; task inputs are referenced by project-relative paths.",
+    "Gold values are stored separately from the task manifest and must remain inaccessible to solving agents.",
+    "Active task inputs and labels use the same predeclared challenge exclusions.",
+    "Source archives mirror the active task manifest and labels; they are for host-side auditing only, not solving or scoring.",
+    "Exclusion policy is retained even when excluded projects have been removed from the source directories and answer file.",
+    "All non-hidden, non-question, non-introduction files are treated as allowed assets except Jupyter notebooks."
+  ],
+  "schema_version": "1.0",
+  "script_version": "1.4.0",
+  "source_answers": {
+    "format": "JSON Lines (one object per non-empty line)",
+    "path": "data/answer/data.json"
+  },
+  "source_archive": {
+    "labels": "data/preprocessed/source_archive/labels.jsonl",
+    "manifest": "data/preprocessed/source_archive/manifest.jsonl"
+  },
+  "source_challenge_count": 35,
+  "source_raw_data": "data/raw_data",
+  "source_task_count": 403,
+  "task_count": 403
+}

@@ -1,0 +1,119 @@
+experiment_id: reflection
+run_id: reflection-local
+schema_version: '1.0'
+seed: 42
+paths:
+  manifest: data/preprocessed/task_inputs/manifest.jsonl
+  raw_data: data/raw_data
+  runs_dir: runs
+model:
+  backend: vllm
+  stream_responses: false
+  model_id: barrydeen/Qwen3.8-27B-AWQ-4bit
+  model_path: models/Qwen3.8-27B-AWQ-4bit
+  revision: e6b4b8b025f85b3e18f13281db576e0b7d5fe314
+  dtype: bfloat16
+  device_map: auto
+  quantization: compressed-tensors
+  do_sample: false
+  temperature: null
+  max_new_tokens: 2048
+  action_max_new_tokens: 384
+  python_max_new_tokens: 2048
+  python_runtime_repairs: 1
+  format_repair_max_new_tokens: 512
+  api_base: http://127.0.0.1:8000/v1
+  served_model_name: qwen38-int4
+  enable_thinking: false
+  context_limit: 12000
+  image_max_pixels: 1048576
+  structured_output: false
+  repair_structured_output: true
+planning:
+  batch_size: 8
+  max_new_tokens: 4096
+  max_model_calls: 16
+  max_seconds: 900.0
+  max_format_repairs: 1
+recovery:
+  round1:
+    max_model_calls: 6
+    max_tool_calls: 4
+    max_seconds: 240.0
+    max_format_repairs: 1
+    final_reserve_seconds: 60.0
+  round2:
+    max_model_calls: 4
+    max_tool_calls: 3
+    max_seconds: 180.0
+    max_format_repairs: 1
+    final_reserve_seconds: 60.0
+  action_tokens: 768
+  python_tokens: 2048
+  format_repair_tokens: 512
+  evidence_chars: 3500
+budget_A:
+  max_model_calls: 12
+  max_tool_calls: 12
+  max_seconds: 300.0
+  max_format_repairs: 1
+  final_reserve_seconds: 10.0
+budget_B:
+  max_model_calls: 6
+  max_tool_calls: 4
+  max_seconds: 180.0
+  max_format_repairs: 1
+  final_reserve_seconds: 10.0
+baseline_attempts: 1
+reflection_rounds: 1
+recovery_run: false
+task_concurrency: 1
+model_concurrency: 1
+model_max_retries: 2
+tool_timeout_seconds: 30.0
+tool_return_tokens: 2000
+verify_computed_answers: true
+answer_validation: audit
+direct_python_repair: true
+llm_format_repair: true
+match_answer_options: false
+final_consistency_review: true
+model_warmup: true
+access:
+  read_only_inputs: true
+  freeze_A: true
+  solver_labels: false
+  solver_repository: false
+  solver_future_questions: false
+  solver_prior_B: false
+  cross_challenge_results: false
+  B_writeback: false
+search:
+  enabled: false
+  scope: concepts_only
+  allowed_domains: []
+  cache_scope: run
+mcp:
+  excel:
+    enabled: true
+    python: .venv/bin/python
+    command: .venv/bin/excel-mcp-server
+    version: 2.0.0
+    sdk_version: 2.3.0
+    transport: stdio
+    tools:
+    - describe_workbook
+    - describe_sheet
+    - read_range
+    - find_cells
+    allow_write: false
+    timeout_seconds: 30.0
+    max_cells: 200
+    max_results: 50
+    max_file_mb: 100
+langfuse_enabled: false
+git_commit: null
+prompt_versions: {}
+mcp_versions:
+  excel-mcp-server: 2.0.0
+  mcp: 2.3.0

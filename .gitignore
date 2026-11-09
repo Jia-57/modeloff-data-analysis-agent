@@ -1,0 +1,17 @@
+.venv/
+models/*
+!models/.gitkeep
+runs/
+docs/
+scripts/
+logs/*
+!logs/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+examples/*
+
+# Full historical SQLite databases, model calls and tool artifacts are local replay data.
+results/first_round_7717182/
+results/first_round_reflection_8107611/

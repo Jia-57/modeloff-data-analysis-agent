@@ -1,0 +1,24 @@
+{
+  "Project planning + ReAct": {
+    "source_run": "first_round_7717182",
+    "source_answers_sha256": "67dca9efbbc0ad9da4c2af2f715ea5f566cf7e3350101fc89596064bb0062b30",
+    "evaluated_tasks": 403,
+    "answered": 280,
+    "correct": 226,
+    "incorrect_answered": 54,
+    "unanswered": 123,
+    "accuracy": 0.5607940446650124,
+    "scoring_status": "provisional_offline_analysis"
+  },
+  "Project planning + ReAct + Reflection": {
+    "source_run": "first_round_reflection_8107611",
+    "source_answers_sha256": "7f74086103e5ded3a4c417a12262c192df1fbc71ba439fd4f8e7ba39d2dba0bf",
+    "evaluated_tasks": 403,
+    "answered": 315,
+    "correct": 245,
+    "incorrect_answered": 70,
+    "unanswered": 88,
+    "accuracy": 0.607940446650124,
+    "scoring_status": "provisional_offline_analysis"
+  }
+}

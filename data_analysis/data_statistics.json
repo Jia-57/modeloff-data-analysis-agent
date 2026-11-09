@@ -1,0 +1,3199 @@
+{
+  "schema_version": 2,
+  "raw_data_dir": "/pfs/data6/home/tu/tu_tu/tu_zxois72/26ss/data-analysis-agents/data/raw_data",
+  "total_projects": 35,
+  "total_questions": 403,
+  "definitions": {
+    "aggregation_unit": "Len_Que: individual question; all other metrics: project; each visible immediate subdirectory is one project",
+    "mean_denominator": {
+      "#Questions": "total_projects",
+      "Len_Intro": "total_projects",
+      "Len_Que": "total_questions",
+      "#Excel": "total_projects",
+      "Excel Size (KB)": "total_projects",
+      "#Image": "total_projects",
+      "#Sheets": "total_projects"
+    },
+    "text_length": "UTF-8 text split on whitespace; all content including headings and answer choices is counted",
+    "Len_Intro": "total introduction.txt word count in each project",
+    "Len_Que": "word count of each individual questionN.txt; Mean, Max and Min across all individual questions, Total across all question words",
+    "#Questions": "number of files matching question[0-9]+.txt, not the largest question number",
+    "#Excel": "all .xlsx, .xlsm and .xlsb files, including auxiliary workbooks",
+    "Excel Size (KB)": "sum of Excel file sizes in bytes / 1024 per project",
+    "#Image": "standalone image files; excludes images embedded in Excel",
+    "#Sheets": "all Excel worksheets, including hidden worksheets; excludes chart sheets",
+    "ignored_files": "hidden files and hidden directories, including .DS_Store"
+  },
+  "summary": {
+    "#Questions": {
+      "mean": 11.514285714285714,
+      "max": 50,
+      "min": 3,
+      "total": 403
+    },
+    "Len_Intro": {
+      "mean": 506.0285714285714,
+      "max": 1169,
+      "min": 0,
+      "total": 17711
+    },
+    "Len_Que": {
+      "mean": 36.903225806451616,
+      "max": 144,
+      "min": 6,
+      "total": 14872
+    },
+    "#Excel": {
+      "mean": 0.7714285714285715,
+      "max": 2,
+      "min": 0,
+      "total": 27
+    },
+    "Excel Size (KB)": {
+      "mean": 202.49310825892857,
+      "max": 2755.9189453125,
+      "min": 0.0,
+      "total": 7087.2587890625
+    },
+    "#Image": {
+      "mean": 0.14285714285714285,
+      "max": 1,
+      "min": 0,
+      "total": 5
+    },
+    "#Sheets": {
+      "mean": 2.085714285714286,
+      "max": 13,
+      "min": 0,
+      "total": 73
+    }
+  },
+  "projects": [
+    {
+      "project_id": "00000001",
+      "question_count": 13,
+      "introduction_word_count": 808,
+      "question_word_count": 581,
+      "excel_count": 1,
+      "excel_size_bytes": 122545,
+      "excel_size_kb": 119.6728515625,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 14,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 808
+        }
+      ],
+      "questions": [
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 30
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 33
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 28
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 47
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 41
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 63
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 32
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 32
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 35
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 59
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 53
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 67
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 61
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-1-Sec-2-Chip-Off-The-Old-Block.xlsx",
+          "size_bytes": 122545,
+          "size_kb": 119.6728515625,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000002",
+      "question_count": 25,
+      "introduction_word_count": 14,
+      "question_word_count": 1064,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 26
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 14
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 89
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 32
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 76
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 24
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 36
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 29
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 113
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 46
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 30
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 43
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 40
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 55
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 59
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 68
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 46
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 22
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 27
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 22
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 34
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 42
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 36
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 21
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 23
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 30
+        },
+        {
+          "path": "question25.txt",
+          "question_number": 25,
+          "word_count": 21
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000003",
+      "question_count": 3,
+      "introduction_word_count": 194,
+      "question_word_count": 87,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 4
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 194
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 20
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 27
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 40
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000004",
+      "question_count": 10,
+      "introduction_word_count": 673,
+      "question_word_count": 373,
+      "excel_count": 1,
+      "excel_size_bytes": 195526,
+      "excel_size_kb": 190.943359375,
+      "image_count": 1,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".csv": 1,
+        ".jpg": 1,
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 673
+        }
+      ],
+      "questions": [
+        {
+          "path": "question41.txt",
+          "question_number": 41,
+          "word_count": 36
+        },
+        {
+          "path": "question42.txt",
+          "question_number": 42,
+          "word_count": 37
+        },
+        {
+          "path": "question43.txt",
+          "question_number": 43,
+          "word_count": 35
+        },
+        {
+          "path": "question44.txt",
+          "question_number": 44,
+          "word_count": 51
+        },
+        {
+          "path": "question45.txt",
+          "question_number": 45,
+          "word_count": 43
+        },
+        {
+          "path": "question46.txt",
+          "question_number": 46,
+          "word_count": 46
+        },
+        {
+          "path": "question47.txt",
+          "question_number": 47,
+          "word_count": 38
+        },
+        {
+          "path": "question48.txt",
+          "question_number": 48,
+          "word_count": 42
+        },
+        {
+          "path": "question49.txt",
+          "question_number": 49,
+          "word_count": 18
+        },
+        {
+          "path": "question50.txt",
+          "question_number": 50,
+          "word_count": 27
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-1-Sec-4-Go-With-The-Flow-data.xlsx",
+          "size_bytes": 195526,
+          "size_kb": 190.943359375,
+          "sheet_count": 3
+        }
+      ],
+      "images": [
+        "flow.jpg"
+      ],
+      "warnings": []
+    },
+    {
+      "project_id": "00000005",
+      "question_count": 10,
+      "introduction_word_count": 318,
+      "question_word_count": 428,
+      "excel_count": 1,
+      "excel_size_bytes": 389460,
+      "excel_size_kb": 380.33203125,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 318
+        }
+      ],
+      "questions": [
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 39
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 40
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 32
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 38
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 44
+        },
+        {
+          "path": "question25.txt",
+          "question_number": 25,
+          "word_count": 32
+        },
+        {
+          "path": "question26.txt",
+          "question_number": 26,
+          "word_count": 42
+        },
+        {
+          "path": "question27.txt",
+          "question_number": 27,
+          "word_count": 55
+        },
+        {
+          "path": "question28.txt",
+          "question_number": 28,
+          "word_count": 28
+        },
+        {
+          "path": "question29.txt",
+          "question_number": 29,
+          "word_count": 78
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-1-Sec-3-Roll-The-Dice-1.xlsx",
+          "size_bytes": 389460,
+          "size_kb": 380.33203125,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000006",
+      "question_count": 10,
+      "introduction_word_count": 518,
+      "question_word_count": 342,
+      "excel_count": 1,
+      "excel_size_bytes": 208333,
+      "excel_size_kb": 203.4501953125,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".ipynb": 1,
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 518
+        }
+      ],
+      "questions": [
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 28
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 28
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 36
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 31
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 31
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 36
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 29
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 37
+        },
+        {
+          "path": "question25.txt",
+          "question_number": 25,
+          "word_count": 19
+        },
+        {
+          "path": "question26.txt",
+          "question_number": 26,
+          "word_count": 67
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-2-Sec-3-Tally-Up-1.xlsx",
+          "size_bytes": 208333,
+          "size_kb": 203.4501953125,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000008",
+      "question_count": 9,
+      "introduction_word_count": 827,
+      "question_word_count": 344,
+      "excel_count": 1,
+      "excel_size_bytes": 195133,
+      "excel_size_kb": 190.5595703125,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 10,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 827
+        }
+      ],
+      "questions": [
+        {
+          "path": "question26.txt",
+          "question_number": 26,
+          "word_count": 56
+        },
+        {
+          "path": "question27.txt",
+          "question_number": 27,
+          "word_count": 36
+        },
+        {
+          "path": "question28.txt",
+          "question_number": 28,
+          "word_count": 36
+        },
+        {
+          "path": "question29.txt",
+          "question_number": 29,
+          "word_count": 35
+        },
+        {
+          "path": "question30.txt",
+          "question_number": 30,
+          "word_count": 36
+        },
+        {
+          "path": "question31.txt",
+          "question_number": 31,
+          "word_count": 35
+        },
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 37
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 35
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 38
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-2-Section-3-System-Allocation-Workbook.xlsx",
+          "size_bytes": 195133,
+          "size_kb": 190.5595703125,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000009",
+      "question_count": 15,
+      "introduction_word_count": 784,
+      "question_word_count": 420,
+      "excel_count": 1,
+      "excel_size_bytes": 2822061,
+      "excel_size_kb": 2755.9189453125,
+      "image_count": 1,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".jpg": 1,
+        ".txt": 16,
+        ".xlsb": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 784
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 26
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 26
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 26
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 26
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 36
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 26
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 26
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 26
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 26
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 36
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 26
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 26
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 26
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 26
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 36
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO2017-Finals-Sec-3-Word-Play (1).xlsb",
+          "size_bytes": 2822061,
+          "size_kb": 2755.9189453125,
+          "sheet_count": 3
+        }
+      ],
+      "images": [
+        "image.jpg"
+      ],
+      "warnings": []
+    },
+    {
+      "project_id": "00000011",
+      "question_count": 8,
+      "introduction_word_count": 382,
+      "question_word_count": 261,
+      "excel_count": 1,
+      "excel_size_bytes": 85312,
+      "excel_size_kb": 83.3125,
+      "image_count": 0,
+      "sheet_count": 1,
+      "file_counts_by_extension": {
+        ".txt": 9,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 382
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 39
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 20
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 20
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 21
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 22
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 29
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 48
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 62
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO14-Purple-City.xlsx",
+          "size_bytes": 85312,
+          "size_kb": 83.3125,
+          "sheet_count": 1
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000012",
+      "question_count": 10,
+      "introduction_word_count": 792,
+      "question_word_count": 334,
+      "excel_count": 1,
+      "excel_size_bytes": 181808,
+      "excel_size_kb": 177.546875,
+      "image_count": 0,
+      "sheet_count": 4,
+      "file_counts_by_extension": {
+        ".ipynb": 1,
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 792
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 29
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 32
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 26
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 31
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 28
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 34
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 29
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 38
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 46
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 41
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO15-More-Money-Please-Data.xlsx",
+          "size_bytes": 181808,
+          "size_kb": 177.546875,
+          "sheet_count": 4
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000013",
+      "question_count": 11,
+      "introduction_word_count": 977,
+      "question_word_count": 442,
+      "excel_count": 1,
+      "excel_size_bytes": 237422,
+      "excel_size_kb": 231.857421875,
+      "image_count": 1,
+      "sheet_count": 4,
+      "file_counts_by_extension": {
+        ".jpg": 1,
+        ".txt": 12,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 977
+        }
+      ],
+      "questions": [
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 54
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 39
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 55
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 44
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 45
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 27
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 35
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 38
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 59
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 17
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 29
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-2-Section-2-Late-Again-Data (1).xlsx",
+          "size_bytes": 237422,
+          "size_kb": 231.857421875,
+          "sheet_count": 4
+        }
+      ],
+      "images": [
+        "image.jpg"
+      ],
+      "warnings": []
+    },
+    {
+      "project_id": "00000014",
+      "question_count": 5,
+      "introduction_word_count": 229,
+      "question_word_count": 114,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 6
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 229
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 21
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 22
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 21
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 27
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 23
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000016",
+      "question_count": 12,
+      "introduction_word_count": 529,
+      "question_word_count": 552,
+      "excel_count": 1,
+      "excel_size_bytes": 157845,
+      "excel_size_kb": 154.1455078125,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 13,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 529
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 41
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 42
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 41
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 42
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 41
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 38
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 40
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 38
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 42
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 36
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 84
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 67
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-2-Section-1-Collect-the-Cash-Spreadsheet-Format (1).xlsx",
+          "size_bytes": 157845,
+          "size_kb": 154.1455078125,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000017",
+      "question_count": 11,
+      "introduction_word_count": 915,
+      "question_word_count": 400,
+      "excel_count": 1,
+      "excel_size_bytes": 203227,
+      "excel_size_kb": 198.4638671875,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".csv": 1,
+        ".txt": 12,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 915
+        }
+      ],
+      "questions": [
+        {
+          "path": "question29.txt",
+          "question_number": 29,
+          "word_count": 39
+        },
+        {
+          "path": "question30.txt",
+          "question_number": 30,
+          "word_count": 33
+        },
+        {
+          "path": "question31.txt",
+          "question_number": 31,
+          "word_count": 33
+        },
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 32
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 32
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 33
+        },
+        {
+          "path": "question35.txt",
+          "question_number": 35,
+          "word_count": 39
+        },
+        {
+          "path": "question36.txt",
+          "question_number": 36,
+          "word_count": 40
+        },
+        {
+          "path": "question37.txt",
+          "question_number": 37,
+          "word_count": 39
+        },
+        {
+          "path": "question38.txt",
+          "question_number": 38,
+          "word_count": 38
+        },
+        {
+          "path": "question39.txt",
+          "question_number": 39,
+          "word_count": 42
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-1-Sec-3-When-it-Rains-it-Pours-data.xlsx",
+          "size_bytes": 203227,
+          "size_kb": 198.4638671875,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000018",
+      "question_count": 12,
+      "introduction_word_count": 463,
+      "question_word_count": 447,
+      "excel_count": 1,
+      "excel_size_bytes": 211302,
+      "excel_size_kb": 206.349609375,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 13,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 463
+        }
+      ],
+      "questions": [
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 30
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 32
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 32
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 32
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 37
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 34
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 39
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 26
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 43
+        },
+        {
+          "path": "question25.txt",
+          "question_number": 25,
+          "word_count": 41
+        },
+        {
+          "path": "question26.txt",
+          "question_number": 26,
+          "word_count": 45
+        },
+        {
+          "path": "question27.txt",
+          "question_number": 27,
+          "word_count": 56
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO17-Round-1-Sec-2-Castles-In-The-Air-data.xlsx",
+          "size_bytes": 211302,
+          "size_kb": 206.349609375,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000019",
+      "question_count": 10,
+      "introduction_word_count": 699,
+      "question_word_count": 412,
+      "excel_count": 1,
+      "excel_size_bytes": 92422,
+      "excel_size_kb": 90.255859375,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 699
+        }
+      ],
+      "questions": [
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 33
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 39
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 36
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 33
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 31
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 28
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 38
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 68
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 52
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 54
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-2-Sec-2-Fund-the-Future (2).xlsx",
+          "size_bytes": 92422,
+          "size_kb": 90.255859375,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000020",
+      "question_count": 10,
+      "introduction_word_count": 766,
+      "question_word_count": 561,
+      "excel_count": 1,
+      "excel_size_bytes": 96329,
+      "excel_size_kb": 94.0712890625,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 766
+        }
+      ],
+      "questions": [
+        {
+          "path": "question28.txt",
+          "question_number": 28,
+          "word_count": 39
+        },
+        {
+          "path": "question29.txt",
+          "question_number": 29,
+          "word_count": 36
+        },
+        {
+          "path": "question30.txt",
+          "question_number": 30,
+          "word_count": 38
+        },
+        {
+          "path": "question31.txt",
+          "question_number": 31,
+          "word_count": 60
+        },
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 39
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 42
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 42
+        },
+        {
+          "path": "question35.txt",
+          "question_number": 35,
+          "word_count": 144
+        },
+        {
+          "path": "question36.txt",
+          "question_number": 36,
+          "word_count": 50
+        },
+        {
+          "path": "question37.txt",
+          "question_number": 37,
+          "word_count": 71
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-2-Sec-4-Maximize-the-Benefit.xlsx",
+          "size_bytes": 96329,
+          "size_kb": 94.0712890625,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000022",
+      "question_count": 10,
+      "introduction_word_count": 1169,
+      "question_word_count": 502,
+      "excel_count": 1,
+      "excel_size_bytes": 99535,
+      "excel_size_kb": 97.2021484375,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 1169
+        }
+      ],
+      "questions": [
+        {
+          "path": "question31.txt",
+          "question_number": 31,
+          "word_count": 36
+        },
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 38
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 52
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 41
+        },
+        {
+          "path": "question35.txt",
+          "question_number": 35,
+          "word_count": 41
+        },
+        {
+          "path": "question36.txt",
+          "question_number": 36,
+          "word_count": 44
+        },
+        {
+          "path": "question37.txt",
+          "question_number": 37,
+          "word_count": 66
+        },
+        {
+          "path": "question38.txt",
+          "question_number": 38,
+          "word_count": 59
+        },
+        {
+          "path": "question39.txt",
+          "question_number": 39,
+          "word_count": 45
+        },
+        {
+          "path": "question40.txt",
+          "question_number": 40,
+          "word_count": 80
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO16-Round-1-Sec-4-Going-Around-in-Circles (1) (1).xlsx",
+          "size_bytes": 99535,
+          "size_kb": 97.2021484375,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000025",
+      "question_count": 10,
+      "introduction_word_count": 630,
+      "question_word_count": 364,
+      "excel_count": 1,
+      "excel_size_bytes": 203234,
+      "excel_size_kb": 198.470703125,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 630
+        }
+      ],
+      "questions": [
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 29
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 31
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 32
+        },
+        {
+          "path": "question35.txt",
+          "question_number": 35,
+          "word_count": 31
+        },
+        {
+          "path": "question36.txt",
+          "question_number": 36,
+          "word_count": 27
+        },
+        {
+          "path": "question37.txt",
+          "question_number": 37,
+          "word_count": 31
+        },
+        {
+          "path": "question38.txt",
+          "question_number": 38,
+          "word_count": 56
+        },
+        {
+          "path": "question39.txt",
+          "question_number": 39,
+          "word_count": 47
+        },
+        {
+          "path": "question40.txt",
+          "question_number": 40,
+          "word_count": 45
+        },
+        {
+          "path": "question41.txt",
+          "question_number": 41,
+          "word_count": 35
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO15-Tax-Data (1).xlsx",
+          "size_bytes": 203234,
+          "size_kb": 198.470703125,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000026",
+      "question_count": 11,
+      "introduction_word_count": 960,
+      "question_word_count": 626,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 12
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 960
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 26
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 30
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 30
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 51
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 54
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 82
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 44
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 46
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 62
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 144
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 57
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000027",
+      "question_count": 15,
+      "introduction_word_count": 721,
+      "question_word_count": 615,
+      "excel_count": 1,
+      "excel_size_bytes": 204487,
+      "excel_size_kb": 199.6943359375,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 16,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 721
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 32
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 31
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 36
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 37
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 39
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 41
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 40
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 41
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 35
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 40
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 34
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 34
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 42
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 50
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 83
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO15-Round-1-Sec-2-Bread-and-Butter-Data.xlsx",
+          "size_bytes": 204487,
+          "size_kb": 199.6943359375,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000028",
+      "question_count": 10,
+      "introduction_word_count": 569,
+      "question_word_count": 388,
+      "excel_count": 1,
+      "excel_size_bytes": 142699,
+      "excel_size_kb": 139.3544921875,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 569
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 33
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 33
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 33
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 32
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 24
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 46
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 38
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 32
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 39
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 78
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO15-Round-1-Sec-4-Options-to-Call-Data.xlsx",
+          "size_bytes": 142699,
+          "size_kb": 139.3544921875,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000029",
+      "question_count": 10,
+      "introduction_word_count": 226,
+      "question_word_count": 603,
+      "excel_count": 1,
+      "excel_size_bytes": 102690,
+      "excel_size_kb": 100.283203125,
+      "image_count": 0,
+      "sheet_count": 3,
+      "file_counts_by_extension": {
+        ".txt": 11,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 226
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 56
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 47
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 57
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 55
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 56
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 60
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 127
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 52
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 48
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 45
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO14-Stepping-Up.xlsx",
+          "size_bytes": 102690,
+          "size_kb": 100.283203125,
+          "sheet_count": 3
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000030",
+      "question_count": 7,
+      "introduction_word_count": 487,
+      "question_word_count": 191,
+      "excel_count": 1,
+      "excel_size_bytes": 52027,
+      "excel_size_kb": 50.8076171875,
+      "image_count": 0,
+      "sheet_count": 2,
+      "file_counts_by_extension": {
+        ".txt": 8,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 487
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 20
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 19
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 25
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 24
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 21
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 35
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 47
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO14-Time-is-Money-Data.xlsx",
+          "size_bytes": 52027,
+          "size_kb": 50.8076171875,
+          "sheet_count": 2
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000031",
+      "question_count": 5,
+      "introduction_word_count": 331,
+      "question_word_count": 210,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 1,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".jpg": 1,
+        ".txt": 6
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 331
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 31
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 36
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 23
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 61
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 59
+        }
+      ],
+      "workbooks": [],
+      "images": [
+        "image.jpg"
+      ],
+      "warnings": []
+    },
+    {
+      "project_id": "00000032",
+      "question_count": 7,
+      "introduction_word_count": 250,
+      "question_word_count": 177,
+      "excel_count": 1,
+      "excel_size_bytes": 151402,
+      "excel_size_kb": 147.853515625,
+      "image_count": 0,
+      "sheet_count": 1,
+      "file_counts_by_extension": {
+        ".txt": 8,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 250
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 17
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 20
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 20
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 24
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 29
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 29
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 38
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO14-Round-1-Dealing-With-Data-Workbook.xlsx",
+          "size_bytes": 151402,
+          "size_kb": 147.853515625,
+          "sheet_count": 1
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000033",
+      "question_count": 8,
+      "introduction_word_count": 648,
+      "question_word_count": 210,
+      "excel_count": 2,
+      "excel_size_bytes": 622546,
+      "excel_size_kb": 607.955078125,
+      "image_count": 0,
+      "sheet_count": 13,
+      "file_counts_by_extension": {
+        ".txt": 9,
+        ".xlsm": 1,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 648
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 25
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 26
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 28
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 31
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 21
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 18
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 26
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 35
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO14-Round-1-Debt-Modeling-Workbook.xlsx",
+          "size_bytes": 80882,
+          "size_kb": 78.986328125,
+          "sheet_count": 1
+        },
+        {
+          "path": "Precise-Debt-Modelling-Model-Citizn.xlsm",
+          "size_bytes": 541664,
+          "size_kb": 528.96875,
+          "sheet_count": 12
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000034",
+      "question_count": 16,
+      "introduction_word_count": 149,
+      "question_word_count": 545,
+      "excel_count": 1,
+      "excel_size_bytes": 374794,
+      "excel_size_kb": 366.009765625,
+      "image_count": 0,
+      "sheet_count": 1,
+      "file_counts_by_extension": {
+        ".txt": 17,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 149
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 35
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 32
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 40
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 25
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 22
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 26
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 26
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 33
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 49
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 30
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 52
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 16
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 30
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 48
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 52
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 29
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO13-Data-Analysis-Data-Workbook.xlsx",
+          "size_bytes": 374794,
+          "size_kb": 366.009765625,
+          "sheet_count": 1
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000035",
+      "question_count": 9,
+      "introduction_word_count": 159,
+      "question_word_count": 344,
+      "excel_count": 2,
+      "excel_size_bytes": 34186,
+      "excel_size_kb": 33.384765625,
+      "image_count": 1,
+      "sheet_count": 4,
+      "file_counts_by_extension": {
+        ".jpg": 1,
+        ".txt": 10,
+        ".xlsx": 2
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 159
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 21
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 22
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 27
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 25
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 27
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 26
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 57
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 27
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 112
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO13-Hard-Times-Assumptions.xlsx",
+          "size_bytes": 26679,
+          "size_kb": 26.0537109375,
+          "sheet_count": 1
+        },
+        {
+          "path": "mock_data.xlsx",
+          "size_bytes": 7507,
+          "size_kb": 7.3310546875,
+          "sheet_count": 3
+        }
+      ],
+      "images": [
+        "image.jpg"
+      ],
+      "warnings": []
+    },
+    {
+      "project_id": "00000036",
+      "question_count": 15,
+      "introduction_word_count": 0,
+      "question_word_count": 763,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 16
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 0
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 42
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 52
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 70
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 128
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 36
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 47
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 68
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 38
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 27
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 29
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 62
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 43
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 32
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 20
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 69
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": [
+        "Empty introduction: introduction.txt"
+      ]
+    },
+    {
+      "project_id": "00000037",
+      "question_count": 20,
+      "introduction_word_count": 0,
+      "question_word_count": 993,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 21
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 0
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 55
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 71
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 62
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 58
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 37
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 24
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 35
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 58
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 42
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 31
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 65
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 89
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 73
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 35
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 62
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 33
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 36
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 33
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 75
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 19
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": [
+        "Empty introduction: introduction.txt"
+      ]
+    },
+    {
+      "project_id": "00000038",
+      "question_count": 5,
+      "introduction_word_count": 681,
+      "question_word_count": 149,
+      "excel_count": 1,
+      "excel_size_bytes": 71028,
+      "excel_size_kb": 69.36328125,
+      "image_count": 0,
+      "sheet_count": 1,
+      "file_counts_by_extension": {
+        ".txt": 6,
+        ".xlsx": 1
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 681
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 34
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 27
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 32
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 26
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 30
+        }
+      ],
+      "workbooks": [
+        {
+          "path": "MO13-Energy-Operations-Workbook.xlsx",
+          "size_bytes": 71028,
+          "size_kb": 69.36328125,
+          "sheet_count": 1
+        }
+      ],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000039",
+      "question_count": 6,
+      "introduction_word_count": 415,
+      "question_word_count": 170,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 7
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 415
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 23
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 26
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 30
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 26
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 28
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 37
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000041",
+      "question_count": 5,
+      "introduction_word_count": 417,
+      "question_word_count": 137,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 6
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 417
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 26
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 24
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 31
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 32
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 24
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    },
+    {
+      "project_id": "00000042",
+      "question_count": 50,
+      "introduction_word_count": 11,
+      "question_word_count": 723,
+      "excel_count": 0,
+      "excel_size_bytes": 0,
+      "excel_size_kb": 0.0,
+      "image_count": 0,
+      "sheet_count": 0,
+      "file_counts_by_extension": {
+        ".txt": 51
+      },
+      "introductions": [
+        {
+          "path": "introduction.txt",
+          "word_count": 11
+        }
+      ],
+      "questions": [
+        {
+          "path": "question1.txt",
+          "question_number": 1,
+          "word_count": 9
+        },
+        {
+          "path": "question2.txt",
+          "question_number": 2,
+          "word_count": 14
+        },
+        {
+          "path": "question3.txt",
+          "question_number": 3,
+          "word_count": 10
+        },
+        {
+          "path": "question4.txt",
+          "question_number": 4,
+          "word_count": 16
+        },
+        {
+          "path": "question5.txt",
+          "question_number": 5,
+          "word_count": 20
+        },
+        {
+          "path": "question6.txt",
+          "question_number": 6,
+          "word_count": 12
+        },
+        {
+          "path": "question7.txt",
+          "question_number": 7,
+          "word_count": 14
+        },
+        {
+          "path": "question8.txt",
+          "question_number": 8,
+          "word_count": 15
+        },
+        {
+          "path": "question9.txt",
+          "question_number": 9,
+          "word_count": 21
+        },
+        {
+          "path": "question10.txt",
+          "question_number": 10,
+          "word_count": 20
+        },
+        {
+          "path": "question11.txt",
+          "question_number": 11,
+          "word_count": 11
+        },
+        {
+          "path": "question12.txt",
+          "question_number": 12,
+          "word_count": 8
+        },
+        {
+          "path": "question13.txt",
+          "question_number": 13,
+          "word_count": 16
+        },
+        {
+          "path": "question14.txt",
+          "question_number": 14,
+          "word_count": 14
+        },
+        {
+          "path": "question15.txt",
+          "question_number": 15,
+          "word_count": 7
+        },
+        {
+          "path": "question16.txt",
+          "question_number": 16,
+          "word_count": 29
+        },
+        {
+          "path": "question17.txt",
+          "question_number": 17,
+          "word_count": 20
+        },
+        {
+          "path": "question18.txt",
+          "question_number": 18,
+          "word_count": 9
+        },
+        {
+          "path": "question19.txt",
+          "question_number": 19,
+          "word_count": 25
+        },
+        {
+          "path": "question20.txt",
+          "question_number": 20,
+          "word_count": 29
+        },
+        {
+          "path": "question21.txt",
+          "question_number": 21,
+          "word_count": 14
+        },
+        {
+          "path": "question22.txt",
+          "question_number": 22,
+          "word_count": 8
+        },
+        {
+          "path": "question23.txt",
+          "question_number": 23,
+          "word_count": 8
+        },
+        {
+          "path": "question24.txt",
+          "question_number": 24,
+          "word_count": 11
+        },
+        {
+          "path": "question25.txt",
+          "question_number": 25,
+          "word_count": 13
+        },
+        {
+          "path": "question26.txt",
+          "question_number": 26,
+          "word_count": 13
+        },
+        {
+          "path": "question27.txt",
+          "question_number": 27,
+          "word_count": 7
+        },
+        {
+          "path": "question28.txt",
+          "question_number": 28,
+          "word_count": 7
+        },
+        {
+          "path": "question29.txt",
+          "question_number": 29,
+          "word_count": 15
+        },
+        {
+          "path": "question30.txt",
+          "question_number": 30,
+          "word_count": 9
+        },
+        {
+          "path": "question31.txt",
+          "question_number": 31,
+          "word_count": 8
+        },
+        {
+          "path": "question32.txt",
+          "question_number": 32,
+          "word_count": 11
+        },
+        {
+          "path": "question33.txt",
+          "question_number": 33,
+          "word_count": 13
+        },
+        {
+          "path": "question34.txt",
+          "question_number": 34,
+          "word_count": 16
+        },
+        {
+          "path": "question35.txt",
+          "question_number": 35,
+          "word_count": 13
+        },
+        {
+          "path": "question36.txt",
+          "question_number": 36,
+          "word_count": 6
+        },
+        {
+          "path": "question37.txt",
+          "question_number": 37,
+          "word_count": 12
+        },
+        {
+          "path": "question38.txt",
+          "question_number": 38,
+          "word_count": 13
+        },
+        {
+          "path": "question39.txt",
+          "question_number": 39,
+          "word_count": 12
+        },
+        {
+          "path": "question40.txt",
+          "question_number": 40,
+          "word_count": 16
+        },
+        {
+          "path": "question41.txt",
+          "question_number": 41,
+          "word_count": 18
+        },
+        {
+          "path": "question42.txt",
+          "question_number": 42,
+          "word_count": 21
+        },
+        {
+          "path": "question43.txt",
+          "question_number": 43,
+          "word_count": 9
+        },
+        {
+          "path": "question44.txt",
+          "question_number": 44,
+          "word_count": 12
+        },
+        {
+          "path": "question45.txt",
+          "question_number": 45,
+          "word_count": 23
+        },
+        {
+          "path": "question46.txt",
+          "question_number": 46,
+          "word_count": 24
+        },
+        {
+          "path": "question47.txt",
+          "question_number": 47,
+          "word_count": 17
+        },
+        {
+          "path": "question48.txt",
+          "question_number": 48,
+          "word_count": 11
+        },
+        {
+          "path": "question49.txt",
+          "question_number": 49,
+          "word_count": 20
+        },
+        {
+          "path": "question50.txt",
+          "question_number": 50,
+          "word_count": 24
+        }
+      ],
+      "workbooks": [],
+      "images": [],
+      "warnings": []
+    }
+  ]
+}
